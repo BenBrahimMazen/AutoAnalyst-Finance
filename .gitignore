@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+
+# Generated artifacts (runtime output). Sample PDFs live in /samples, which IS tracked.
+reports/*.pdf
+reports/*.md
+!reports/.gitkeep
+
+# Logs
+*.log
+
+# Local-only scratch / download dirs
+/gtk3dl/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# HuggingFace model cache
+.cache/

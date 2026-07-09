@@ -1,0 +1,41 @@
+# AutoAnalyst Finance — containerized API + Streamlit frontend.
+#
+# Host ports are parameterized so this single file covers both the default
+# mapping and an alternate mapping that won't collide with a locally-running
+# uvicorn (:8000) / streamlit (:8501):
+#
+#   docker compose up -d                                          # 8000  / 8501
+#   API_PORT=18000 FRONTEND_PORT=18501 docker compose up -d       # alt ports
+#
+# The `image:` tags let compose reuse the already-built images when present, so
+# `docker compose up -d` does NOT rebuild unless you pass --build.
+
+services:
+  api:
+    image: autoanalyst-finance-api
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    ports:
+      - "${API_PORT:-8000}:8000"
+    env_file: .env
+    volumes:
+      - ./reports:/app/reports
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    image: autoanalyst-finance-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "${FRONTEND_PORT:-8501}:8501"
+    environment:
+      API_URL: http://api:8000
+    depends_on:
+      api:
+        condition: service_healthy

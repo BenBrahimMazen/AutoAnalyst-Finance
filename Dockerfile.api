@@ -1,0 +1,25 @@
+FROM python:3.11-slim
+WORKDIR /app
+
+# Python deps first: these layers are heavy and change rarely, so keeping them
+# early (and before the apt layer) maximizes Docker layer caching.
+COPY requirements.txt .
+RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
+RUN pip install --no-cache-dir -r requirements.txt
+
+# WeasyPrint runtime system dependencies (pango / cairo / gdk-pixbuf).
+# Note: on Debian trixie (current python:3.11-slim base) the package is
+# libgdk-pixbuf-2.0-0 (renamed from the older libgdk-pixbuf2.0-0).
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libpango-1.0-0 libpangoft2-1.0-0 libcairo2 libgdk-pixbuf-2.0-0 \
+    curl && rm -rf /var/lib/apt/lists/*
+
+COPY conftest.py .
+COPY pytest.ini .
+COPY src/ ./src/
+COPY scripts/ ./scripts/
+
+# Reports are written to a shared volume mounted at runtime.
+RUN mkdir -p /app/reports
+
+CMD ["uvicorn", "src.api.main:app", "--host", "0.0.0.0", "--port", "8000"]
