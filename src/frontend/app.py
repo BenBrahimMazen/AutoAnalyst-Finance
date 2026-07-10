@@ -83,6 +83,77 @@ def _fetch_result(run_id: str) -> dict | None:
         return None
 
 
+# --- Detail renderers ------------------------------------------------------
+# Defined before the UI flow so they exist on every Streamlit rerun — including
+# the first one that renders a result, which `st.rerun()` reaches before any
+# code placed further down (defs at the bottom never ran → NameError).
+def _fetch_detail(run_id: str) -> dict:
+    """Fetch the full state for rich rendering. Falls back to the summary."""
+    try:
+        resp = requests.get(f"{API_URL}/report/{run_id}", timeout=15)
+        resp.raise_for_status()
+        return resp.json()
+    except Exception:  # noqa: BLE001
+        return {}
+
+
+def _fetch_conclusion(run_id: str) -> str:
+    """Return the investment conclusion text if exposed, else a placeholder."""
+    return "See the full report PDF for the investment conclusion and valuation."
+
+
+def render_financials(run_id: str) -> None:
+    """Render valuation/profitability ratios, peer chart, and DCF."""
+    detail = _fetch_detail(run_id)
+    st.caption("Detailed financials are rendered from the full report. "
+               "Open the PDF for the complete tables, DCF, and peer comparison.")
+    if detail:
+        c1, c2 = st.columns(2)
+        with c1:
+            st.markdown("**Valuation**")
+            st.metric("Risk Score", detail.get("risk_score", "—"))
+        with c2:
+            st.metric("Sentiment", detail.get("aggregate_sentiment", "—").capitalize())
+
+
+def render_sentiment(run_id: str) -> None:
+    """Render the aggregate sentiment badge and topics."""
+    detail = _fetch_detail(run_id)
+    sentiment = detail.get("aggregate_sentiment", "neutral")
+    color = {"bullish": "green", "bearish": "red", "neutral": "gray"}.get(sentiment, "gray")
+    st.markdown(f":{color}[● Sentiment: **{sentiment.capitalize()}**]")
+    st.caption("Key topics, article list, and per-article sentiment labels are in the PDF report.")
+
+
+def render_risk(run_id: str, summary: dict) -> None:
+    """Render the risk gauge and red-flag alerts."""
+    risk_score = int(summary.get("risk_score", 0) or 0)
+    fig = go.Figure(go.Indicator(
+        mode="gauge+number",
+        value=risk_score,
+        title={"text": "Risk Score"},
+        gauge={
+            "axis": {"range": [0, 100]},
+            "bar": {"color": "#0f2748"},
+            "steps": [
+                {"range": [0, 40], "color": "#dcfce7"},
+                {"range": [40, 75], "color": "#fef9c3"},
+                {"range": [75, 100], "color": "#fee2e2"},
+            ],
+        },
+    ))
+    fig.update_layout(height=280, margin=dict(t=40, b=10, l=20, r=20))
+    st.plotly_chart(fig, use_container_width=True)
+
+    flags = summary.get("red_flags", [])
+    if not flags:
+        st.success("No red flags triggered.")
+    for flag in flags:
+        sev = flag.get("severity", "low")
+        sev_color = {"high": "error", "medium": "warning", "low": "info"}.get(sev, "info")
+        getattr(st, sev_color)(f"**{flag.get('name', '')}** — {flag.get('message', '')}")
+
+
 # --- Input row -------------------------------------------------------------
 col_in1, col_in2, col_in3 = st.columns([2, 1, 1])
 with col_in1:
@@ -156,71 +227,3 @@ if result:
         st.link_button("⬇️ Download PDF Report", f"{API_URL}/report/{st.session_state.run_id}/pdf")
     else:
         st.warning("PDF not available for this run.")
-
-
-# --- Lazy detail loaders (extra endpoints beyond the spec's report) --------
-def _fetch_detail(run_id: str) -> dict:
-    """Fetch the full state for rich rendering. Falls back to the summary."""
-    try:
-        resp = requests.get(f"{API_URL}/report/{run_id}", timeout=15)
-        resp.raise_for_status()
-        return resp.json()
-    except Exception:  # noqa: BLE001
-        return {}
-
-
-def _fetch_conclusion(run_id: str) -> str:
-    """Return the investment conclusion text if exposed, else a placeholder."""
-    return "See the full report PDF for the investment conclusion and valuation."
-
-
-def render_financials(run_id: str) -> None:
-    """Render valuation/profitability ratios, peer chart, and DCF."""
-    detail = _fetch_detail(run_id)
-    st.caption("Detailed financials are rendered from the full report. "
-               "Open the PDF for the complete tables, DCF, and peer comparison.")
-    if detail:
-        c1, c2 = st.columns(2)
-        with c1:
-            st.markdown("**Valuation**")
-            st.metric("Risk Score", detail.get("risk_score", "—"))
-        with c2:
-            st.metric("Sentiment", detail.get("aggregate_sentiment", "—").capitalize())
-
-
-def render_sentiment(run_id: str) -> None:
-    """Render the aggregate sentiment badge and topics."""
-    detail = _fetch_detail(run_id)
-    sentiment = detail.get("aggregate_sentiment", "neutral")
-    color = {"bullish": "green", "bearish": "red", "neutral": "gray"}.get(sentiment, "gray")
-    st.markdown(f":{color}[● Sentiment: **{sentiment.capitalize()}**]")
-    st.caption("Key topics, article list, and per-article sentiment labels are in the PDF report.")
-
-
-def render_risk(run_id: str, summary: dict) -> None:
-    """Render the risk gauge and red-flag alerts."""
-    risk_score = int(summary.get("risk_score", 0) or 0)
-    fig = go.Figure(go.Indicator(
-        mode="gauge+number",
-        value=risk_score,
-        title={"text": "Risk Score"},
-        gauge={
-            "axis": {"range": [0, 100]},
-            "bar": {"color": "#0f2748"},
-            "steps": [
-                {"range": [0, 40], "color": "#dcfce7"},
-                {"range": [40, 75], "color": "#fef9c3"},
-                {"range": [75, 100], "color": "#fee2e2"},
-            ],
-        },
-    ))
-    fig.update_layout(height=280, margin=dict(t=40, b=10, l=20, r=20))
-    st.plotly_chart(fig, use_container_width=True)
-
-    flags = summary.get("red_flags", [])
-    if not flags:
-        st.success("No red flags triggered.")
-    for flag in flags:
-        sev = flag.get("severity", "low")
-        sev_color = {"high": "error", "medium": "warning", "low": "info"}.get(sev, "info")
-        getattr(st, sev_color)(f"**{flag.get('name', '')}** — {flag.get('message', '')}")
