@@ -42,9 +42,9 @@ import modal
 
 APP_NAME = "autoanalyst-finance"
 
-# After your first `modal deploy`, replace this with the printed `api` URL, then
-# redeploy. It tells the Streamlit UI where the FastAPI backend lives.
-API_URL = "https://<workspace>--autoanalyst-finance-api.modal.run"
+# Live API URL (printed by `modal deploy`). Points the Streamlit UI at the
+# deployed FastAPI backend. The frontend() function injects this into the env.
+API_URL = "https://mazen-ben-brahim--autoanalyst-finance-api.modal.run"
 
 
 def _download_finbert() -> None:
@@ -62,13 +62,17 @@ image = (
     .apt_install(
         "libpango-1.0-0", "libpangoft2-1.0-0", "libcairo2", "libgdk-pixbuf-2.0-0"
     )
-    .add_local_file("requirements.txt", "/root/requirements.txt")
+    # `copy=True` bakes the file into the image so the pip step below can read it
+    # at build time. (Modal 1.5.x disallows run steps after a non-copied add_local_*.)
+    .add_local_file("requirements.txt", "/root/requirements.txt", copy=True)
     .run_commands(
         "pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu",
         "pip install --no-cache-dir -r /root/requirements.txt",
     )
-    .add_local_dir("src", "/root/src")
     .run_function(_download_finbert)
+    # add_local_dir must come LAST: `src` is mounted into the container at startup
+    # (default copy=False), so local code edits don't invalidate the cached layers.
+    .add_local_dir("src", "/root/src")
 )
 
 app = modal.App(APP_NAME, image=image)
@@ -108,7 +112,6 @@ def frontend() -> None:
             "--server.address=0.0.0.0",
             "--server.headless=true",
             "--server.enableCORS=false",
-            "--server.enableXsrfCORS=false",
             "--server.enableXsrfProtection=false",
         ],
         env=env,

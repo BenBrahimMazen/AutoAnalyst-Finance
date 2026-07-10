@@ -17,6 +17,13 @@
   <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-containerized-2496ED?logo=docker&logoColor=white" alt="Docker"></a>
 </p>
 
+<p align="center">
+  <a href="https://mazen-ben-brahim--autoanalyst-finance-frontend.modal.run"><img src="https://img.shields.io/badge/Live-Modal-7F00FF" alt="Live on Modal"></a>
+  &nbsp;<strong>Try it:</strong>
+  <a href="https://mazen-ben-brahim--autoanalyst-finance-frontend.modal.run">Streamlit UI</a>
+  · <a href="https://mazen-ben-brahim--autoanalyst-finance-api.modal.run/docs">API docs</a>
+</p>
+
 AutoAnalyst Finance orchestrates a team of specialized agents — built on **LangGraph** — that research any publicly traded company and produce a structured, institutional-grade investment report (executive summary, fundamentals, valuation, DCF, sentiment, and risk) as a styled PDF in under two minutes. It pairs large language model (LLM) reasoning with grounded financial data (yfinance, FRED), deterministic valuation models, a local **FinBERT** sentiment classifier, and an auditable rule-based risk engine.
 
 
@@ -194,11 +201,23 @@ docker compose down
 ```
 
 ### Deploy (Modal)
-Serverless full stack with FinBERT baked into the image — see [`modal_app.py`](modal_app.py).
+The full stack runs serverless on [Modal](https://modal.com/) — FastAPI and Streamlit
+on a shared image with FinBERT baked in at build time (cold starts load it from disk
+instead of re-downloading ~1.3 GB). See [`modal_app.py`](modal_app.py).
+
+| Endpoint | URL |
+|---|---|
+| Streamlit UI | <https://mazen-ben-brahim--autoanalyst-finance-frontend.modal.run> |
+| REST API (`/docs`) | <https://mazen-ben-brahim--autoanalyst-finance-api.modal.run> |
+
+> Deployed via `modal deploy`; the CI workflow ([`deploy-modal.yml`](.github/workflows/deploy-modal.yml))
+> auto-deploys on push to `main` once the `MODAL_TOKEN_*` repo secrets are set. The API
+> scales to zero when idle (~10–20 s cold start).
+
 ```bash
 pip install modal && modal token new
 modal secret create autoanalyst-finance LLM_API_KEY=… TAVILY_API_KEY=… …
-modal deploy modal_app.py
+modal deploy modal_app.py       # prints the api + frontend URLs
 ```
 
 ---
