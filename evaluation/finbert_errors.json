@@ -1,0 +1,562 @@
+[
+  {
+    "text": "In Sweden , Gallerix accumulated SEK denominated sales were down 1 % and EUR denominated sales were up 11 % .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9728,
+      "neutral": 0.0167,
+      "positive": 0.0105
+    },
+    "confidence": 0.9728,
+    "margin": 0.9562,
+    "bucket": "mixed-signal (both positive and negative cues)",
+    "index": 49
+  },
+  {
+    "text": "Operating loss was EUR 179mn , compared to a loss of EUR 188mn in the second quarter of 2009 .",
+    "true": "positive",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9715,
+      "neutral": 0.009,
+      "positive": 0.0195
+    },
+    "confidence": 0.9715,
+    "margin": 0.9521,
+    "bucket": "domain vocabulary (financial event verbs)",
+    "index": 1400
+  },
+  {
+    "text": "Unit costs for flight operations fell by 6.4 percent .",
+    "true": "positive",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9678,
+      "neutral": 0.0133,
+      "positive": 0.0189
+    },
+    "confidence": 0.9678,
+    "margin": 0.949,
+    "bucket": "domain vocabulary (financial event verbs)",
+    "index": 479
+  },
+  {
+    "text": "Among other industrial stocks , Metso added 0.53 pct to 40.04 eur , Wartsila B was down 0.77 pct at 47.87 eur and Rautaruukki K was 1.08 pct lower at 37.56 eur .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9683,
+      "neutral": 0.0223,
+      "positive": 0.0094
+    },
+    "confidence": 0.9683,
+    "margin": 0.946,
+    "bucket": "domain vocabulary (financial event verbs)",
+    "index": 2464
+  },
+  {
+    "text": "Operating loss landed at EUR39m including one-offs and at EUR27m excluding one-offs .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9677,
+      "neutral": 0.0235,
+      "positive": 0.0088
+    },
+    "confidence": 0.9677,
+    "margin": 0.9442,
+    "bucket": "domain vocabulary (financial event verbs)",
+    "index": 3123
+  },
+  {
+    "text": "Sales in local currencies decreased by 0.5 percent while the number of subscribers rose by 12.7 million to a total of 147.6 million at the end of fourth quarter , the company said .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9635,
+      "neutral": 0.023,
+      "positive": 0.0136
+    },
+    "confidence": 0.9635,
+    "margin": 0.9405,
+    "bucket": "mixed-signal (both positive and negative cues)",
+    "index": 3259
+  },
+  {
+    "text": "When cruising , the revs fall as less engine output is required .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9621,
+      "neutral": 0.0298,
+      "positive": 0.0082
+    },
+    "confidence": 0.9621,
+    "margin": 0.9323,
+    "bucket": "other / subtle phrasing",
+    "index": 3039
+  },
+  {
+    "text": "Finnish fibers and plastics producer Suominen Corporation OMX Helsinki : SUY1V reported on Wednesday 22 October an operating loss of EUR0 .8 m on net sales of EUR55 .2 m for the third quarter of 2008 .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9614,
+      "neutral": 0.0323,
+      "positive": 0.0063
+    },
+    "confidence": 0.9614,
+    "margin": 0.9291,
+    "bucket": "mixed-signal (both positive and negative cues)",
+    "index": 2509
+  },
+  {
+    "text": "The company reported a profit of 800,000 euro ($ 1.2 mln)on the sale of its Varesvuo Partners sub-group and a loss of 400,000 euro $ 623,000 caused by the sale of its program production subsidiary Oy Filmiteollisuus Fine Ab .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9569,
+      "neutral": 0.0318,
+      "positive": 0.0112
+    },
+    "confidence": 0.9569,
+    "margin": 0.9251,
+    "bucket": "mixed-signal (both positive and negative cues)",
+    "index": 2931
+  },
+  {
+    "text": "Loudeye Corp. , up $ 2.56 at $ 4.33 Nokia Corp. , down 10 cents at $ 19.46 Nokia agreed to buy the digital music distributor for $ 60 million .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9515,
+      "neutral": 0.0286,
+      "positive": 0.0199
+    },
+    "confidence": 0.9515,
+    "margin": 0.9229,
+    "bucket": "mixed-signal (both positive and negative cues)",
+    "index": 2040
+  },
+  {
+    "text": "The company reports a loss for the period of EUR 0.4 mn compared to a loss of EUR 1.9 mn in the corresponding period in 2005 .",
+    "true": "positive",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9566,
+      "neutral": 0.0092,
+      "positive": 0.0342
+    },
+    "confidence": 0.9566,
+    "margin": 0.9224,
+    "bucket": "domain vocabulary (financial event verbs)",
+    "index": 1426
+  },
+  {
+    "text": "Previously , it projected the figure to be slightly lower than in 2009 .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9507,
+      "neutral": 0.0324,
+      "positive": 0.0169
+    },
+    "confidence": 0.9507,
+    "margin": 0.9184,
+    "bucket": "domain vocabulary (financial event verbs)",
+    "index": 2620
+  },
+  {
+    "text": "The adjustments concern staff in both the Specialty Papers and the Fiber Composites segments .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9527,
+      "neutral": 0.0382,
+      "positive": 0.0091
+    },
+    "confidence": 0.9527,
+    "margin": 0.9145,
+    "bucket": "other / subtle phrasing",
+    "index": 3003
+  },
+  {
+    "text": "In Asia earlier , Japan 's Nikkei index fell 0.62 percent and Hong Kong 's Hang Seng Index rose 0.56 percent .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9493,
+      "neutral": 0.0384,
+      "positive": 0.0123
+    },
+    "confidence": 0.9493,
+    "margin": 0.9108,
+    "bucket": "mixed-signal (both positive and negative cues)",
+    "index": 3229
+  },
+  {
+    "text": "Sales fell abroad but increased in Finland .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9463,
+      "neutral": 0.0157,
+      "positive": 0.038
+    },
+    "confidence": 0.9463,
+    "margin": 0.9084,
+    "bucket": "mixed-signal (both positive and negative cues)",
+    "index": 3245
+  },
+  {
+    "text": "The broad-based WIG index ended Thursday 's session 0.1 pct up at 65,003.34 pts , while the blue-chip WIG20 was 1.13 down at 3,687.15 pts .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9409,
+      "neutral": 0.0341,
+      "positive": 0.025
+    },
+    "confidence": 0.9409,
+    "margin": 0.9067,
+    "bucket": "mixed-signal (both positive and negative cues)",
+    "index": 377
+  },
+  {
+    "text": "11 August 2010 - Finnish measuring equipment maker Vaisala Oyj HEL : VAIAS said today that its net loss widened to EUR4 .8 m in the first half of 2010 from EUR2 .3 m in the corresponding period a year earlier .",
+    "true": "negative",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0368,
+      "neutral": 0.0254,
+      "positive": 0.9378
+    },
+    "confidence": 0.9378,
+    "margin": 0.9009,
+    "bucket": "domain vocabulary (financial event verbs)",
+    "index": 505
+  },
+  {
+    "text": "High winds also toppled three semi-trailers on I-15 north of Barstow .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.941,
+      "neutral": 0.0408,
+      "positive": 0.0181
+    },
+    "confidence": 0.941,
+    "margin": 0.9002,
+    "bucket": "other / subtle phrasing",
+    "index": 2530
+  },
+  {
+    "text": "The measures taken will cause one-time costs during the final part of 2006 .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9416,
+      "neutral": 0.0459,
+      "positive": 0.0125
+    },
+    "confidence": 0.9416,
+    "margin": 0.8957,
+    "bucket": "other / subtle phrasing",
+    "index": 1761
+  },
+  {
+    "text": "The board further said the company omitted to tender for a substantial part of the works and as such they had rightfully been found non-responsive by the evaluation team .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.942,
+      "neutral": 0.047,
+      "positive": 0.011
+    },
+    "confidence": 0.942,
+    "margin": 0.895,
+    "bucket": "other / subtle phrasing",
+    "index": 3174
+  },
+  {
+    "text": "The difference can be explained by the fact that two shipping companies have stopped operating in the Gulf of Finland .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9406,
+      "neutral": 0.0488,
+      "positive": 0.0106
+    },
+    "confidence": 0.9406,
+    "margin": 0.8917,
+    "bucket": "other / subtle phrasing",
+    "index": 3070
+  },
+  {
+    "text": "ADP News - Apr 22 , 2009 - Finnish business information systems developer Solteq Oyj HEL : STQ1V said today its net loss widened to EUR 189,000 USD 245,000 for the first quarter of 2009 from EUR 10,000 for the same peri",
+    "true": "negative",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0423,
+      "neutral": 0.024,
+      "positive": 0.9337
+    },
+    "confidence": 0.9337,
+    "margin": 0.8914,
+    "bucket": "domain vocabulary (financial event verbs)",
+    "index": 507
+  },
+  {
+    "text": "Finnish power supply solutions and systems provider Efore Oyj said its net loss widened to 3.2 mln euro $ 4.2 mln for the first quarter of fiscal 2006-2007 ending October 31 , 2007 from 900,000 euro $ 1.2 mln for the same period of fiscal 2005-06 .",
+    "true": "negative",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0457,
+      "neutral": 0.0199,
+      "positive": 0.9344
+    },
+    "confidence": 0.9344,
+    "margin": 0.8886,
+    "bucket": "domain vocabulary (financial event verbs)",
+    "index": 506
+  },
+  {
+    "text": "The loss for the third quarter of 2007 was EUR 0.3 mn smaller than the loss of the second quarter of 2007 .",
+    "true": "positive",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9329,
+      "neutral": 0.0145,
+      "positive": 0.0526
+    },
+    "confidence": 0.9329,
+    "margin": 0.8802,
+    "bucket": "domain vocabulary (financial event verbs)",
+    "index": 480
+  },
+  {
+    "text": "The company is now withdrawing the second part , EUR 7.2 mn , of the investment commitment .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9348,
+      "neutral": 0.0563,
+      "positive": 0.0089
+    },
+    "confidence": 0.9348,
+    "margin": 0.8785,
+    "bucket": "other / subtle phrasing",
+    "index": 918
+  },
+  {
+    "text": "The company said that it has agreed to a EUR160m unsecured credit line from lenders .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0133,
+      "neutral": 0.0567,
+      "positive": 0.93
+    },
+    "confidence": 0.93,
+    "margin": 0.8733,
+    "bucket": "other / subtle phrasing",
+    "index": 2684
+  },
+  {
+    "text": "Finnish property investor Sponda said it has agreed a 100 mln eur , five-year mln credit facility with Swedbank and a 50 mln eur , seven-year facility with OKO Bank .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0131,
+      "neutral": 0.0596,
+      "positive": 0.9273
+    },
+    "confidence": 0.9273,
+    "margin": 0.8677,
+    "bucket": "other / subtle phrasing",
+    "index": 1959
+  },
+  {
+    "text": "On the route between Helsinki in Finland and Tallinn in Estonia , cargo volumes increased by 36 % , while cargo volumes between Finland and Sweden fell by 9 % .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0587,
+      "neutral": 0.0157,
+      "positive": 0.9256
+    },
+    "confidence": 0.9256,
+    "margin": 0.867,
+    "bucket": "mixed-signal (both positive and negative cues)",
+    "index": 56
+  },
+  {
+    "text": "Karppinen expects the consolidation trend to continue in the Finnish market .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0129,
+      "neutral": 0.0607,
+      "positive": 0.9264
+    },
+    "confidence": 0.9264,
+    "margin": 0.8657,
+    "bucket": "other / subtle phrasing",
+    "index": 2029
+  },
+  {
+    "text": "3 January 2011 - Scandinavian lenders Sampo Bank ( HEL : SAMAS ) , Pohjola Bank ( HEL : POH1S ) and Svenska Handelsbanken ( STO : SHB A ) have provided a EUR160m ( USD213m ) line of credit to Lemminkainen Oyj ( HEL : LEM1S ) , the Finnish construction firm said on Friday .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0136,
+      "neutral": 0.0668,
+      "positive": 0.9196
+    },
+    "confidence": 0.9196,
+    "margin": 0.8529,
+    "bucket": "other / subtle phrasing",
+    "index": 1828
+  },
+  {
+    "text": "The mill 's raw material need will increase by 100,000 m3 of wood .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0111,
+      "neutral": 0.0684,
+      "positive": 0.9205
+    },
+    "confidence": 0.9205,
+    "margin": 0.8521,
+    "bucket": "other / subtle phrasing",
+    "index": 3022
+  },
+  {
+    "text": "The shipyard hopes the regional government in Andalusia can offer its some form of financial support .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0109,
+      "neutral": 0.0695,
+      "positive": 0.9196
+    },
+    "confidence": 0.9196,
+    "margin": 0.8502,
+    "bucket": "other / subtle phrasing",
+    "index": 967
+  },
+  {
+    "text": "Return on investment was 16.6 % compared to 15.8 % in 2004 .",
+    "true": "positive",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.9107,
+      "neutral": 0.0264,
+      "positive": 0.063
+    },
+    "confidence": 0.9107,
+    "margin": 0.8477,
+    "bucket": "other / subtle phrasing",
+    "index": 1307
+  },
+  {
+    "text": "`` Management decided at the end of 2005 to increase cathode copper capacity .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0088,
+      "neutral": 0.0777,
+      "positive": 0.9134
+    },
+    "confidence": 0.9134,
+    "margin": 0.8357,
+    "bucket": "other / subtle phrasing",
+    "index": 339
+  },
+  {
+    "text": "Employees are also better prepared to answer calls , since they already have detailed information about the caller before they answer the phone . ''",
+    "true": "positive",
+    "predicted": "neutral",
+    "probabilities": {
+      "negative": 0.0299,
+      "neutral": 0.9011,
+      "positive": 0.069
+    },
+    "confidence": 0.9011,
+    "margin": 0.8321,
+    "bucket": "other / subtle phrasing",
+    "index": 835
+  },
+  {
+    "text": "Amer , which bought Salomon from adidas in October , said the job cuts are aimed at boosting competitiveness .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0567,
+      "neutral": 0.0569,
+      "positive": 0.8865
+    },
+    "confidence": 0.8865,
+    "margin": 0.8296,
+    "bucket": "other / subtle phrasing",
+    "index": 3193
+  },
+  {
+    "text": "It 's even a little bit higher than Yara 's multiples on itself , ' an analyst in Helsinki said .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0248,
+      "neutral": 0.0734,
+      "positive": 0.9018
+    },
+    "confidence": 0.9018,
+    "margin": 0.8284,
+    "bucket": "other / subtle phrasing",
+    "index": 1272
+  },
+  {
+    "text": "The insurance division turned a EUR120m profit .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0199,
+      "neutral": 0.0767,
+      "positive": 0.9034
+    },
+    "confidence": 0.9034,
+    "margin": 0.8267,
+    "bucket": "other / subtle phrasing",
+    "index": 1439
+  },
+  {
+    "text": "In Finland , the launch of tie-in sales of 3G mobile phones did not cause a dramatic rush in mobile retail outlets during the first few days .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0533,
+      "neutral": 0.0763,
+      "positive": 0.8704
+    },
+    "confidence": 0.8704,
+    "margin": 0.7941,
+    "bucket": "negation / contrast (failed to, despite, however, ...)",
+    "index": 3420
+  },
+  {
+    "text": "Following the issue , the number of shares in the Swedish company will grow by 9 % .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0078,
+      "neutral": 0.1004,
+      "positive": 0.8917
+    },
+    "confidence": 0.8917,
+    "margin": 0.7913,
+    "bucket": "other / subtle phrasing",
+    "index": 2519
+  }
+]

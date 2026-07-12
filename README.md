@@ -101,6 +101,28 @@ Pulls quarterly income statements and balance sheets, then computes:
 ### Sentiment analysis
 Recent news is retrieved via Tavily; each headline/snippet is classified by **FinBERT** (`ProsusAI/finbert`), a BERT model fine-tuned on financial text. Per-article positive/negative/neutral scores are aggregated into an overall label and a set of key topics.
 
+### Model evaluation (FinBERT)
+Calling a pretrained model is cheap; *knowing how well it works* is the part that matters. To back the sentiment stage with evidence rather than a demo, the exact FinBERT instance the application runs (`src.tools.sentiment_model.FinBERTSentiment`) is benchmarked on the **Financial PhraseBank** benchmark (`sentences_75agree`, 3,453 sentences), against a **VADER** lexicon baseline. The evaluation is fully reproducible and its artifacts live under the tracked [`evaluation/`](evaluation/) directory.
+
+| Model | Accuracy | Macro-F1 | Neg P / R | Neu P / R | Pos P / R |
+|---|---|---|---|---|---|
+| **FinBERT** | **0.947** | **0.936** | 0.86 / 0.98 | 0.99 / 0.93 | 0.90 / 0.97 |
+| VADER (baseline) | 0.563 | 0.494 | 0.39 / 0.28 | 0.80 / 0.55 | 0.39 / 0.73 |
+
+![FinBERT confusion matrix on Financial PhraseBank](evaluation/finbert_confusion_matrix.png)
+
+Honest findings from the error analysis (full write-up in [`evaluation/SUMMARY.md`](evaluation/SUMMARY.md); every misclassification dumped to [`evaluation/finbert_errors.json`](evaluation/finbert_errors.json)):
+
+- **Domain pretraining is decisive.** FinBERT (0.947 / 0.936) crushes the lexicon-based VADER (0.563 / 0.494), which barely clears the 62% majority-class baseline of always predicting *neutral* and is effectively unusable on financial text. The takeaway: general-purpose sentiment lexicons do not transfer to earnings language.
+- **Neutral is the weak class (recall 0.93).** FinBERT injects polarity into factual reporting. The largest error bucket is neutral sentences read as *positive* (93) or *negative* (52) — e.g. *"The insurance division turned a EUR120m profit"* (a neutral earnings note) is labelled positive, while *"Operating loss landed at EUR39m …"* is labelled negative.
+- **Direction-of-causality errors.** The model latches onto financial-event vocabulary and sometimes reverses polarity when a "bad" word describes a good outcome: *"Unit costs for flight operations fell by 6.4 percent"* (lower costs are good → *positive*) is labelled negative, as is *"Operating loss … compared to a loss of EUR 188mn"* (a shrinking loss, i.e. an improvement). It reads the cue word, not the economics.
+- **High negative recall, lower negative precision.** FinBERT catches nearly every real negative (recall 0.98) but over-triggers: ~14% of its *negative* predictions are wrong, almost always fired by the words *loss* / *fell* / *decreased* appearing in neutral or improving contexts.
+
+Reproduce it:
+```bash
+pip install -r requirements-eval.txt && python scripts/eval_finbert.py
+```
+
 ### Risk detection
 A transparent, **deterministic** rule engine — no LLM participates in scoring, so the result is reproducible and auditable. Each triggered rule contributes severity-weighted points; the total is capped at 100.
 
@@ -261,14 +283,15 @@ autoanalyst-finance/
 │   ├── prompts/       # LLM prompt templates
 │   ├── api/           # FastAPI app + schemas
 │   └── frontend/      # Streamlit app
-├── scripts/run_analysis.py
+├── scripts/             # run_analysis.py (pipeline) · eval_finbert.py (FinBERT eval)
 ├── tests/
-├── samples/           # example PDF reports (tracked)
-├── reports/           # runtime PDF output (gitignored)
-├── modal_app.py       # serverless (Modal) deployment
+├── samples/             # example PDF reports (tracked)
+├── evaluation/          # FinBERT eval artifacts: metrics, confusion matrices, errors (tracked)
+├── reports/             # runtime PDF output (gitignored)
+├── modal_app.py         # serverless (Modal) deployment
 ├── docker-compose.yml · Dockerfile.api · Dockerfile.frontend
-├── .github/workflows/ # CI + Modal deploy
-├── requirements.txt · .env.example
+├── .github/workflows/   # CI + Modal deploy
+├── requirements.txt · requirements-eval.txt · .env.example
 └── README.md
 ```
 

@@ -1,0 +1,97 @@
+{
+  "dataset": "financial_phrasebank/sentences_75agree",
+  "n_examples": 3453,
+  "labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "label_distribution": {
+    "negative": 420,
+    "neutral": 2146,
+    "positive": 887
+  },
+  "seed": 42,
+  "finbert": {
+    "accuracy": 0.9472922096727483,
+    "macro_f1": 0.9364610645058223,
+    "per_class": {
+      "negative": {
+        "precision": 0.8604166666666667,
+        "recall": 0.9833333333333333,
+        "f1": 0.9177777777777778,
+        "support": 420
+      },
+      "neutral": {
+        "precision": 0.9915758176412289,
+        "recall": 0.9324324324324325,
+        "f1": 0.9610951008645533,
+        "support": 2146
+      },
+      "positive": {
+        "precision": 0.8973821989528796,
+        "recall": 0.9661781285231116,
+        "f1": 0.9305103148751357,
+        "support": 887
+      }
+    },
+    "confusion_matrix": [
+      [
+        413,
+        2,
+        5
+      ],
+      [
+        52,
+        2001,
+        93
+      ],
+      [
+        15,
+        15,
+        857
+      ]
+    ]
+  },
+  "vader": {
+    "accuracy": 0.5629887054735013,
+    "macro_f1": 0.49409365271579375,
+    "per_class": {
+      "negative": {
+        "precision": 0.3881578947368421,
+        "recall": 0.28095238095238095,
+        "f1": 0.3259668508287293,
+        "support": 420
+      },
+      "neutral": {
+        "precision": 0.7978363759296823,
+        "recall": 0.5498602050326188,
+        "f1": 0.6510344827586206,
+        "support": 2146
+      },
+      "positive": {
+        "precision": 0.38682634730538923,
+        "recall": 0.7282976324689966,
+        "f1": 0.5052796245600313,
+        "support": 887
+      }
+    },
+    "confusion_matrix": [
+      [
+        118,
+        108,
+        194
+      ],
+      [
+        136,
+        1180,
+        830
+      ],
+      [
+        50,
+        191,
+        646
+      ]
+    ]
+  }
+}
