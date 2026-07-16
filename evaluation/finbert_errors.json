@@ -558,5 +558,1993 @@
     "margin": 0.7913,
     "bucket": "other / subtle phrasing",
     "index": 2519
+  },
+  {
+    "text": "When the negotiations were started , Neste Oil anticipated that 450 people would be affected .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.8894,
+      "neutral": 0.0984,
+      "positive": 0.0122
+    },
+    "confidence": 0.8894,
+    "margin": 0.7909,
+    "bucket": "other / subtle phrasing",
+    "index": 2408
+  },
+  {
+    "text": "Finnish publisher Alma Media ( HEL : ALN1V ) said Wednesday it has decided to further extend its EUR1 .85 ( USD2 .75 ) apiece mandatory tender offer for media group Talentum ( HEL : TTM1V ) , which started on 19 August , until 16 November .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0136,
+      "neutral": 0.0988,
+      "positive": 0.8877
+    },
+    "confidence": 0.8877,
+    "margin": 0.7889,
+    "bucket": "other / subtle phrasing",
+    "index": 1960
+  },
+  {
+    "text": "The electricity requirement of networks will grow with the new mobile generation .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0069,
+      "neutral": 0.1074,
+      "positive": 0.8858
+    },
+    "confidence": 0.8858,
+    "margin": 0.7784,
+    "bucket": "other / subtle phrasing",
+    "index": 2709
+  },
+  {
+    "text": "Because expenditures must be justified to pass budget approval hurdles , we believe our RoP model can help make it easier for IT and IT security practitioners to make the business case for acquiring enabling security technologies and related control activities .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0071,
+      "neutral": 0.1195,
+      "positive": 0.8734
+    },
+    "confidence": 0.8734,
+    "margin": 0.754,
+    "bucket": "other / subtle phrasing",
+    "index": 3426
+  },
+  {
+    "text": "In the fourth quarter of 2006 , OKO Banks expects the operating environment for Banking and Investment Services to remain similar to that in January-September 2006 .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0119,
+      "neutral": 0.1172,
+      "positive": 0.871
+    },
+    "confidence": 0.871,
+    "margin": 0.7538,
+    "bucket": "other / subtle phrasing",
+    "index": 1999
+  },
+  {
+    "text": "Argentine agricultural export company Calafate has tapped compatriot firm Finnegans for a software solution , the latter company said in a statement .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0109,
+      "neutral": 0.1182,
+      "positive": 0.8709
+    },
+    "confidence": 0.8709,
+    "margin": 0.7527,
+    "bucket": "other / subtle phrasing",
+    "index": 1815
+  },
+  {
+    "text": "A maximum of 20 employees , who work in Karttakeskus and are responsible for producing Geographic Information Services , will be affected , the company added .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.8687,
+      "neutral": 0.1211,
+      "positive": 0.0102
+    },
+    "confidence": 0.8687,
+    "margin": 0.7476,
+    "bucket": "other / subtle phrasing",
+    "index": 718
+  },
+  {
+    "text": "However , the broker gave an `` outperform '' recommendation on the stock .",
+    "true": "positive",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.842,
+      "neutral": 0.0567,
+      "positive": 0.1013
+    },
+    "confidence": 0.842,
+    "margin": 0.7408,
+    "bucket": "negation / contrast (failed to, despite, however, ...)",
+    "index": 610
+  },
+  {
+    "text": "It is necessary to strengthen the company 's operations , however .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0089,
+      "neutral": 0.1282,
+      "positive": 0.8629
+    },
+    "confidence": 0.8629,
+    "margin": 0.7347,
+    "bucket": "negation / contrast (failed to, despite, however, ...)",
+    "index": 743
+  },
+  {
+    "text": "Scanfil expects net sales in 2008 to remain at the 2007 level .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0287,
+      "neutral": 0.119,
+      "positive": 0.8523
+    },
+    "confidence": 0.8523,
+    "margin": 0.7333,
+    "bucket": "other / subtle phrasing",
+    "index": 1413
+  },
+  {
+    "text": "Finnish Neste Oil that was previously on the list , has fallen off the list completely .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.8597,
+      "neutral": 0.1278,
+      "positive": 0.0125
+    },
+    "confidence": 0.8597,
+    "margin": 0.732,
+    "bucket": "other / subtle phrasing",
+    "index": 2510
+  },
+  {
+    "text": "Kaupthing forecasts that Finnish-Swedish Stora Enso will close its mill in Reisholz , in Germany .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.8596,
+      "neutral": 0.1302,
+      "positive": 0.0102
+    },
+    "confidence": 0.8596,
+    "margin": 0.7295,
+    "bucket": "other / subtle phrasing",
+    "index": 2030
+  },
+  {
+    "text": "Aldata noted that its Voice Supply Chain Technology approach enables VDW to integrate with warehouse management systems .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0062,
+      "neutral": 0.1344,
+      "positive": 0.8594
+    },
+    "confidence": 0.8594,
+    "margin": 0.725,
+    "bucket": "other / subtle phrasing",
+    "index": 1863
+  },
+  {
+    "text": "Typically , the transmission power level can be decreased when the interference noise is above a predefined value .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.8497,
+      "neutral": 0.1277,
+      "positive": 0.0226
+    },
+    "confidence": 0.8497,
+    "margin": 0.7219,
+    "bucket": "domain vocabulary (financial event verbs)",
+    "index": 3187
+  },
+  {
+    "text": "The company has decided to stop the operations of Ruukki Construction Division in Latvia and Lithuania , and concentrate the production and logistics in Parnu , Estonia in 2009 .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.8539,
+      "neutral": 0.1349,
+      "positive": 0.0111
+    },
+    "confidence": 0.8539,
+    "margin": 0.719,
+    "bucket": "other / subtle phrasing",
+    "index": 2181
+  },
+  {
+    "text": "Apart from Nordea , also Ergo is competing for the position among the top three pension funds providers in Estonia .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0078,
+      "neutral": 0.1427,
+      "positive": 0.8495
+    },
+    "confidence": 0.8495,
+    "margin": 0.7067,
+    "bucket": "other / subtle phrasing",
+    "index": 814
+  },
+  {
+    "text": "In a letter to Economic Affairs Minister , the listed Estonian shipping company Tallink asks for the approval to be entitled to a 15 % cut in port fees in 2010 .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.1011,
+      "neutral": 0.0918,
+      "positive": 0.8071
+    },
+    "confidence": 0.8071,
+    "margin": 0.706,
+    "bucket": "domain vocabulary (financial event verbs)",
+    "index": 1992
+  },
+  {
+    "text": "26 November 2010 - Finnish sports-equipment maker Amer Sports Oyj ( HEL : AMEAS ) said today it has obtained a EUR30m Schuldschein note loan from a pool of international investors .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0118,
+      "neutral": 0.1439,
+      "positive": 0.8443
+    },
+    "confidence": 0.8443,
+    "margin": 0.7004,
+    "bucket": "other / subtle phrasing",
+    "index": 1827
+  },
+  {
+    "text": "Our solutions are fully Arabized , and our message is that we want to become the IT partner of choice for businesses in the Near-East region .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0067,
+      "neutral": 0.1472,
+      "positive": 0.8462
+    },
+    "confidence": 0.8462,
+    "margin": 0.699,
+    "bucket": "other / subtle phrasing",
+    "index": 754
+  },
+  {
+    "text": "In addition , the existing service counter area in the reception hall will be rebuilt and access provided to local rail connections .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0089,
+      "neutral": 0.1511,
+      "positive": 0.84
+    },
+    "confidence": 0.84,
+    "margin": 0.6889,
+    "bucket": "other / subtle phrasing",
+    "index": 1611
+  },
+  {
+    "text": "The group reiterated its forecast that handset manufacturers will sell around 915 mln units this year globally .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.007,
+      "neutral": 0.1658,
+      "positive": 0.8272
+    },
+    "confidence": 0.8272,
+    "margin": 0.6613,
+    "bucket": "other / subtle phrasing",
+    "index": 2239
+  },
+  {
+    "text": "Fortum needs a clear signal of commitment from the Government that the permit is available before the company will start the next round , Kuula says .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0102,
+      "neutral": 0.167,
+      "positive": 0.8227
+    },
+    "confidence": 0.8227,
+    "margin": 0.6557,
+    "bucket": "other / subtle phrasing",
+    "index": 1202
+  },
+  {
+    "text": "In the financial statement for the first quarter of 2010 , Tikkurila is reported under discontinued operations .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.8124,
+      "neutral": 0.1762,
+      "positive": 0.0114
+    },
+    "confidence": 0.8124,
+    "margin": 0.6361,
+    "bucket": "other / subtle phrasing",
+    "index": 1998
+  },
+  {
+    "text": "According to Finnish financial services group Sampo 's CEO , Bj+\u00c2rn Wahlroos , Danish Danske Bank 's acquisition of Sampo Bank for EUR 4bn was the largest cash deal in Finland 's economic history .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0091,
+      "neutral": 0.1822,
+      "positive": 0.8087
+    },
+    "confidence": 0.8087,
+    "margin": 0.6264,
+    "bucket": "other / subtle phrasing",
+    "index": 2447
+  },
+  {
+    "text": "Return on equity stood at 18.3 % compared to 15.4 % in the third quarter of 2005 .",
+    "true": "positive",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.8036,
+      "neutral": 0.019,
+      "positive": 0.1774
+    },
+    "confidence": 0.8036,
+    "margin": 0.6262,
+    "bucket": "other / subtle phrasing",
+    "index": 1478
+  },
+  {
+    "text": "We look forward to take part in the future development of the company , '' says Tomas Billing , President of Nordstjernan .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0084,
+      "neutral": 0.1828,
+      "positive": 0.8088
+    },
+    "confidence": 0.8088,
+    "margin": 0.6259,
+    "bucket": "other / subtle phrasing",
+    "index": 2827
+  },
+  {
+    "text": "Sony Ericsson and Nokia dominated the list of best-selling handsets with five models each .",
+    "true": "positive",
+    "predicted": "neutral",
+    "probabilities": {
+      "negative": 0.0166,
+      "neutral": 0.7993,
+      "positive": 0.1841
+    },
+    "confidence": 0.7993,
+    "margin": 0.6152,
+    "bucket": "other / subtle phrasing",
+    "index": 630
+  },
+  {
+    "text": "F-Secure reported that : - The first half of 2008 has seen a growing number of targeted malware attacks on individuals , companies , and organizations .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.7862,
+      "neutral": 0.172,
+      "positive": 0.0418
+    },
+    "confidence": 0.7862,
+    "margin": 0.6143,
+    "bucket": "other / subtle phrasing",
+    "index": 1972
+  },
+  {
+    "text": "Fortum expects its annual capital expenditure in the next four to five years to be within a range of EUR 0.8-1 .2 billion , as earlier announced .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.009,
+      "neutral": 0.1904,
+      "positive": 0.8006
+    },
+    "confidence": 0.8006,
+    "margin": 0.6103,
+    "bucket": "other / subtle phrasing",
+    "index": 1967
+  },
+  {
+    "text": "As a consequence the Works Council had withdrawn its petition to suspend the reorganisation .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.795,
+      "neutral": 0.1884,
+      "positive": 0.0166
+    },
+    "confidence": 0.795,
+    "margin": 0.6066,
+    "bucket": "other / subtle phrasing",
+    "index": 2938
+  },
+  {
+    "text": "To showcase our end-to-end capabilities at the Mobile World Congress , we arranged an internal MeeGo application development competition to entice developers to create new applications .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0073,
+      "neutral": 0.1943,
+      "positive": 0.7984
+    },
+    "confidence": 0.7984,
+    "margin": 0.6041,
+    "bucket": "other / subtle phrasing",
+    "index": 1123
+  },
+  {
+    "text": "The objective of the St. Petersburg office is first to boost the Company 's maintenance business .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.007,
+      "neutral": 0.1975,
+      "positive": 0.7955
+    },
+    "confidence": 0.7955,
+    "margin": 0.598,
+    "bucket": "other / subtle phrasing",
+    "index": 947
+  },
+  {
+    "text": "mr Bakman sees also expansion options on the Tallinn-Helisnki link , claiming however , that operating the link with only a single ship is not enough .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0205,
+      "neutral": 0.1927,
+      "positive": 0.7869
+    },
+    "confidence": 0.7869,
+    "margin": 0.5942,
+    "bucket": "negation / contrast (failed to, despite, however, ...)",
+    "index": 1636
+  },
+  {
+    "text": "The effect may remain short-lived , however .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.7575,
+      "neutral": 0.1667,
+      "positive": 0.0758
+    },
+    "confidence": 0.7575,
+    "margin": 0.5907,
+    "bucket": "negation / contrast (failed to, despite, however, ...)",
+    "index": 2948
+  },
+  {
+    "text": "Known as Post Bank , the concept would see Fidelity Bank rolling out 75 offices in Ghana Post premises , to provide financial services to the people .",
+    "true": "positive",
+    "predicted": "neutral",
+    "probabilities": {
+      "negative": 0.0078,
+      "neutral": 0.7864,
+      "positive": 0.2057
+    },
+    "confidence": 0.7864,
+    "margin": 0.5807,
+    "bucket": "other / subtle phrasing",
+    "index": 614
+  },
+  {
+    "text": "Previously , the company expected its 2008 financial performance to remain at the same level as in 2008 .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.1573,
+      "neutral": 0.1059,
+      "positive": 0.7368
+    },
+    "confidence": 0.7368,
+    "margin": 0.5794,
+    "bucket": "other / subtle phrasing",
+    "index": 2621
+  },
+  {
+    "text": "Diluted loss per share stood at EUR 0.15 versus EUR 0.26 .",
+    "true": "positive",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.7666,
+      "neutral": 0.0405,
+      "positive": 0.1929
+    },
+    "confidence": 0.7666,
+    "margin": 0.5737,
+    "bucket": "domain vocabulary (financial event verbs)",
+    "index": 1347
+  },
+  {
+    "text": "The company said that it will supply the WCDMA 3G-HSPA radio network , including the modular , high capacity Nokia Flexi WCDMA base station in East Java , Bali , Sumatra and Batam .",
+    "true": "positive",
+    "predicted": "neutral",
+    "probabilities": {
+      "negative": 0.0066,
+      "neutral": 0.7814,
+      "positive": 0.212
+    },
+    "confidence": 0.7814,
+    "margin": 0.5694,
+    "bucket": "other / subtle phrasing",
+    "index": 1483
+  },
+  {
+    "text": "Negotiations with representatives of the personnel regarding the restructuring process have now been ended .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.776,
+      "neutral": 0.2098,
+      "positive": 0.0142
+    },
+    "confidence": 0.776,
+    "margin": 0.5662,
+    "bucket": "other / subtle phrasing",
+    "index": 2059
+  },
+  {
+    "text": "Another firm Air Liquide was exempted because it left the market in 1998 .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.7677,
+      "neutral": 0.205,
+      "positive": 0.0273
+    },
+    "confidence": 0.7677,
+    "margin": 0.5627,
+    "bucket": "other / subtle phrasing",
+    "index": 1879
+  },
+  {
+    "text": "The company expects its net sales for the whole 2009 to be at previous year levels .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0243,
+      "neutral": 0.207,
+      "positive": 0.7687
+    },
+    "confidence": 0.7687,
+    "margin": 0.5617,
+    "bucket": "other / subtle phrasing",
+    "index": 2672
+  },
+  {
+    "text": "Elcoteq expects its net sales for the last quarter of 2010 to be on the level of the third quarter .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0166,
+      "neutral": 0.211,
+      "positive": 0.7724
+    },
+    "confidence": 0.7724,
+    "margin": 0.5614,
+    "bucket": "other / subtle phrasing",
+    "index": 2500
+  },
+  {
+    "text": "The other actions include the cutting of the expensive weekend shifts , the freezing of the production bonus system and by a general cost-cutting program .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.7624,
+      "neutral": 0.2101,
+      "positive": 0.0275
+    },
+    "confidence": 0.7624,
+    "margin": 0.5523,
+    "bucket": "other / subtle phrasing",
+    "index": 3186
+  },
+  {
+    "text": "Industry Investment is very interested in Glaston 's solar energy projects .",
+    "true": "positive",
+    "predicted": "neutral",
+    "probabilities": {
+      "negative": 0.0072,
+      "neutral": 0.7705,
+      "positive": 0.2223
+    },
+    "confidence": 0.7705,
+    "margin": 0.5482,
+    "bucket": "other / subtle phrasing",
+    "index": 612
+  },
+  {
+    "text": "Previously , EB delivered a custom solution for LG Electronics and now is making it commercially available for other mobile terminal vendors as well as to wireless operators .",
+    "true": "positive",
+    "predicted": "neutral",
+    "probabilities": {
+      "negative": 0.0072,
+      "neutral": 0.7647,
+      "positive": 0.2281
+    },
+    "confidence": 0.7647,
+    "margin": 0.5366,
+    "bucket": "other / subtle phrasing",
+    "index": 1406
+  },
+  {
+    "text": "Less than ten people will face pension agreements .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.7606,
+      "neutral": 0.226,
+      "positive": 0.0134
+    },
+    "confidence": 0.7606,
+    "margin": 0.5347,
+    "bucket": "other / subtle phrasing",
+    "index": 2988
+  },
+  {
+    "text": "Finnish business software group AffectoGenimap Oyj said its net profit halved to 1.2 mln euro ( $ 1.5 mln ) in the first nine months of 2006 from 2.2 mln euro ( $ 2.8 mln ) in the same period of 2005 .",
+    "true": "negative",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.226,
+      "neutral": 0.0173,
+      "positive": 0.7568
+    },
+    "confidence": 0.7568,
+    "margin": 0.5308,
+    "bucket": "other / subtle phrasing",
+    "index": 3303
+  },
+  {
+    "text": "`` These developments partly reflect the government 's higher activity in the field of dividend policy . ''",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0139,
+      "neutral": 0.2337,
+      "positive": 0.7524
+    },
+    "confidence": 0.7524,
+    "margin": 0.5187,
+    "bucket": "other / subtle phrasing",
+    "index": 2437
+  },
+  {
+    "text": "Finnish meat company Atria can no longer promise a sufficient amount of domestic beef to its customers .",
+    "true": "negative",
+    "predicted": "neutral",
+    "probabilities": {
+      "negative": 0.2202,
+      "neutral": 0.7383,
+      "positive": 0.0415
+    },
+    "confidence": 0.7383,
+    "margin": 0.5181,
+    "bucket": "negation / contrast (failed to, despite, however, ...)",
+    "index": 3424
+  },
+  {
+    "text": "Union and company officials did not return calls yesterday .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.7473,
+      "neutral": 0.2342,
+      "positive": 0.0186
+    },
+    "confidence": 0.7473,
+    "margin": 0.5131,
+    "bucket": "negation / contrast (failed to, despite, however, ...)",
+    "index": 2398
+  },
+  {
+    "text": "Profit for the period was EUR 15.6 mn compared to EUR 14.1 mn in 2007 .",
+    "true": "positive",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.7421,
+      "neutral": 0.0186,
+      "positive": 0.2393
+    },
+    "confidence": 0.7421,
+    "margin": 0.5028,
+    "bucket": "other / subtle phrasing",
+    "index": 1474
+  },
+  {
+    "text": "These savings will have full impact as of the beginning of 2007 .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0083,
+      "neutral": 0.2471,
+      "positive": 0.7446
+    },
+    "confidence": 0.7446,
+    "margin": 0.4976,
+    "bucket": "other / subtle phrasing",
+    "index": 1487
+  },
+  {
+    "text": "shock phase ' , consumers have once again started to plan and implement building projects .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0106,
+      "neutral": 0.249,
+      "positive": 0.7405
+    },
+    "confidence": 0.7405,
+    "margin": 0.4915,
+    "bucket": "other / subtle phrasing",
+    "index": 3001
+  },
+  {
+    "text": "Metso Foundries Jyvaskyla Oy will discontinue production on this line by 30 September 2008 , the company said .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.7317,
+      "neutral": 0.2553,
+      "positive": 0.013
+    },
+    "confidence": 0.7317,
+    "margin": 0.4764,
+    "bucket": "other / subtle phrasing",
+    "index": 2052
+  },
+  {
+    "text": "According to Saarioinen 's Managing Director Ilkka M+\u00f1kel+\u00f1 , the food industry sector has a significant excess of production machinery .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.7088,
+      "neutral": 0.2525,
+      "positive": 0.0387
+    },
+    "confidence": 0.7088,
+    "margin": 0.4563,
+    "bucket": "other / subtle phrasing",
+    "index": 1848
+  },
+  {
+    "text": "Aldata to Share Space Optimization Vision at Apollo User Group and 2009 Category Management Association Conferences ; Company Will Unveil New Solution that Combines Business Intelligence with Space Planning Data at Conferences",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.008,
+      "neutral": 0.269,
+      "positive": 0.723
+    },
+    "confidence": 0.723,
+    "margin": 0.454,
+    "bucket": "other / subtle phrasing",
+    "index": 805
+  },
+  {
+    "text": "The facility will be used to refinance Citycon 's existing credit facility , the company said .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0082,
+      "neutral": 0.2714,
+      "positive": 0.7203
+    },
+    "confidence": 0.7203,
+    "margin": 0.4489,
+    "bucket": "other / subtle phrasing",
+    "index": 2224
+  },
+  {
+    "text": "Finnish Talvivaara Mining Co HEL : TLV1V said Thursday it had picked BofA Merrill Lynch and JPMorgan NYSE : JPM as joint bookrunners of its planned issue of convertible notes worth up to EUR250m USD332m .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0088,
+      "neutral": 0.2719,
+      "positive": 0.7192
+    },
+    "confidence": 0.7192,
+    "margin": 0.4473,
+    "bucket": "other / subtle phrasing",
+    "index": 332
+  },
+  {
+    "text": "You are warmly welcome !",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0135,
+      "neutral": 0.2697,
+      "positive": 0.7167
+    },
+    "confidence": 0.7167,
+    "margin": 0.447,
+    "bucket": "other / subtle phrasing",
+    "index": 987
+  },
+  {
+    "text": "Nokia said it still expects to sell 150 more million Symbian devices in years to come , giving an indication of how it expects the Phone 7 handoff to work .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0095,
+      "neutral": 0.2751,
+      "positive": 0.7155
+    },
+    "confidence": 0.7155,
+    "margin": 0.4404,
+    "bucket": "other / subtle phrasing",
+    "index": 1647
+  },
+  {
+    "text": "In the spring 2006 , a total of 386,530 Stock Options 2002 B were annulled .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.7052,
+      "neutral": 0.2797,
+      "positive": 0.0151
+    },
+    "confidence": 0.7052,
+    "margin": 0.4255,
+    "bucket": "other / subtle phrasing",
+    "index": 3060
+  },
+  {
+    "text": "At the end of the review period , Nordic Aluminium 's order book stood at EUR 8.77 mn compared to EUR 7.04 in 2005 .",
+    "true": "positive",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.6988,
+      "neutral": 0.0216,
+      "positive": 0.2796
+    },
+    "confidence": 0.6988,
+    "margin": 0.4192,
+    "bucket": "other / subtle phrasing",
+    "index": 1284
+  },
+  {
+    "text": "No changes in media activity were seen in October compared with September .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.6943,
+      "neutral": 0.2754,
+      "positive": 0.0303
+    },
+    "confidence": 0.6943,
+    "margin": 0.4189,
+    "bucket": "negation / contrast (failed to, despite, however, ...)",
+    "index": 2064
+  },
+  {
+    "text": "It expects revenue between $ 8.4 billion and $ 8.7 billion , compared to analyst estimates of $ 8.67 billion .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.2778,
+      "neutral": 0.0288,
+      "positive": 0.6934
+    },
+    "confidence": 0.6934,
+    "margin": 0.4156,
+    "bucket": "other / subtle phrasing",
+    "index": 1379
+  },
+  {
+    "text": "`` My wife is looking forward to getting a paycheck again , '' he quipped recently as a six-knot current swirled around his anchored and heavily sponsored jet sled .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.6213,
+      "neutral": 0.213,
+      "positive": 0.1658
+    },
+    "confidence": 0.6213,
+    "margin": 0.4083,
+    "bucket": "other / subtle phrasing",
+    "index": 2957
+  },
+  {
+    "text": "Tyrv+\u00f1inen is of the opinion that the airline has been repeating this for some time already , however .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.6881,
+      "neutral": 0.2834,
+      "positive": 0.0285
+    },
+    "confidence": 0.6881,
+    "margin": 0.4047,
+    "bucket": "negation / contrast (failed to, despite, however, ...)",
+    "index": 2815
+  },
+  {
+    "text": "Joint procurement will be later extended to the factories in the Baltic countries .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0095,
+      "neutral": 0.2941,
+      "positive": 0.6964
+    },
+    "confidence": 0.6964,
+    "margin": 0.4022,
+    "bucket": "other / subtle phrasing",
+    "index": 2026
+  },
+  {
+    "text": "The contract covers turnkey deliveries to all five airports operated by the authority -- John F Kennedy , LaGuardia , Newark , Teterboro and Stewart International .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0109,
+      "neutral": 0.2939,
+      "positive": 0.6952
+    },
+    "confidence": 0.6952,
+    "margin": 0.4013,
+    "bucket": "other / subtle phrasing",
+    "index": 1726
+  },
+  {
+    "text": "The reasons behind the estimate include the rise in 2008 rent levels and several fully-leased office and retail properties , which were completed and added to the company 's investment property portfolio .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0134,
+      "neutral": 0.2956,
+      "positive": 0.691
+    },
+    "confidence": 0.691,
+    "margin": 0.3955,
+    "bucket": "other / subtle phrasing",
+    "index": 454
+  },
+  {
+    "text": "The share sale , to foreign and Finnish investors , is expected to raise some euro300 million ( US$ 380 million ) .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0079,
+      "neutral": 0.2984,
+      "positive": 0.6937
+    },
+    "confidence": 0.6937,
+    "margin": 0.3952,
+    "bucket": "other / subtle phrasing",
+    "index": 2326
+  },
+  {
+    "text": "Seppala 's revenue increased by 0.2 % to EUR10 .1 m. In Finland , revenue went down by 2.4 % to EUR6 .8 m , while sales abroad rose by 6.2 % to EUR3 .3 m. Sales increased in all the Baltic countries as well as in Russia and Ukraine .",
+    "true": "positive",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.6781,
+      "neutral": 0.0364,
+      "positive": 0.2855
+    },
+    "confidence": 0.6781,
+    "margin": 0.3926,
+    "bucket": "mixed-signal (both positive and negative cues)",
+    "index": 44
+  },
+  {
+    "text": "The company will also be compensated for acting as a reserve batch plant .",
+    "true": "positive",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.681,
+      "neutral": 0.0282,
+      "positive": 0.2907
+    },
+    "confidence": 0.681,
+    "margin": 0.3903,
+    "bucket": "other / subtle phrasing",
+    "index": 644
+  },
+  {
+    "text": "STOCK EXCHANGE ANNOUNCEMENT 20 July 2006 1 ( 1 ) BASWARE SHARE SUBSCRIPTIONS WITH WARRANTS AND INCREASE IN SHARE CAPITAL A total of 119 850 shares have been subscribed with BasWare Warrant Program .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0095,
+      "neutral": 0.304,
+      "positive": 0.6866
+    },
+    "confidence": 0.6866,
+    "margin": 0.3826,
+    "bucket": "other / subtle phrasing",
+    "index": 52
+  },
+  {
+    "text": "The deal also includes a ten-year maintenance agreement .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.009,
+      "neutral": 0.3051,
+      "positive": 0.6859
+    },
+    "confidence": 0.6859,
+    "margin": 0.3808,
+    "bucket": "other / subtle phrasing",
+    "index": 2213
+  },
+  {
+    "text": "Exports make up more than 80 per cent of our sales , so the name Glaston also reflects a truly internationally operating company , '' explains Kyro 's President & CEO Mika Seitovirta .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0073,
+      "neutral": 0.3062,
+      "positive": 0.6865
+    },
+    "confidence": 0.6865,
+    "margin": 0.3803,
+    "bucket": "other / subtle phrasing",
+    "index": 515
+  },
+  {
+    "text": "Today the orange scissors are the iconic symbol of the excellent ergonomic design and superior quality associated with every product from Fiskars .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0091,
+      "neutral": 0.3062,
+      "positive": 0.6847
+    },
+    "confidence": 0.6847,
+    "margin": 0.3785,
+    "bucket": "other / subtle phrasing",
+    "index": 1246
+  },
+  {
+    "text": "So far the company has awarded more than $ 350,000 worth of tools and materials .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0091,
+      "neutral": 0.3144,
+      "positive": 0.6765
+    },
+    "confidence": 0.6765,
+    "margin": 0.3621,
+    "bucket": "other / subtle phrasing",
+    "index": 1221
+  },
+  {
+    "text": "`` These tests are part of a larger campaign which includes various customer trials and demonstrations to make LTE on 800 MHz commercially viable by this summer , '' Nokia Siemens head of LTE business line , Reino Tammela , said .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0088,
+      "neutral": 0.3169,
+      "positive": 0.6743
+    },
+    "confidence": 0.6743,
+    "margin": 0.3573,
+    "bucket": "other / subtle phrasing",
+    "index": 418
+  },
+  {
+    "text": "F-Secure , a developer of security solutions as a service through Internet Service Providers and mobile operators , announced results from its annual Online Wellbeing Survey .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0149,
+      "neutral": 0.3141,
+      "positive": 0.671
+    },
+    "confidence": 0.671,
+    "margin": 0.3569,
+    "bucket": "other / subtle phrasing",
+    "index": 1024
+  },
+  {
+    "text": "Based on negotiations with personnel , some 20 % have indicated their willingness to move to the new location .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0112,
+      "neutral": 0.3258,
+      "positive": 0.6631
+    },
+    "confidence": 0.6631,
+    "margin": 0.3373,
+    "bucket": "other / subtle phrasing",
+    "index": 1010
+  },
+  {
+    "text": "After the sale , Outokumpu 's share of the technology unit will be reduced to some 12-20 percent .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.6465,
+      "neutral": 0.3347,
+      "positive": 0.0189
+    },
+    "confidence": 0.6465,
+    "margin": 0.3118,
+    "bucket": "domain vocabulary (financial event verbs)",
+    "index": 2452
+  },
+  {
+    "text": "`` Of course , we are in talks with all those coming up with new projects that involve material handling , '' Konecranes President and CEO Pekka Lundmark said , when asked whether it was talking to Reliance Industries for supplying equipment to its upcoming refinery in Jamnagar .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.014,
+      "neutral": 0.341,
+      "positive": 0.645
+    },
+    "confidence": 0.645,
+    "margin": 0.304,
+    "bucket": "other / subtle phrasing",
+    "index": 359
+  },
+  {
+    "text": "According shipping company Viking Line , the EU decision will have a significant financial impact .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.5433,
+      "neutral": 0.2444,
+      "positive": 0.2123
+    },
+    "confidence": 0.5433,
+    "margin": 0.2988,
+    "bucket": "other / subtle phrasing",
+    "index": 2849
+  },
+  {
+    "text": "A 2001 agreement expired earlier this month .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.6341,
+      "neutral": 0.3426,
+      "positive": 0.0233
+    },
+    "confidence": 0.6341,
+    "margin": 0.2915,
+    "bucket": "other / subtle phrasing",
+    "index": 3044
+  },
+  {
+    "text": "` Nordic infrastructure construction is one of our strategic growth areas .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0109,
+      "neutral": 0.3494,
+      "positive": 0.6396
+    },
+    "confidence": 0.6396,
+    "margin": 0.2902,
+    "bucket": "other / subtle phrasing",
+    "index": 1817
+  },
+  {
+    "text": "Operating profit totaled EUR 17.7 mn compared to EUR 17.6 mn in the corresponding period in 2007 .",
+    "true": "positive",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.6355,
+      "neutral": 0.018,
+      "positive": 0.3466
+    },
+    "confidence": 0.6355,
+    "margin": 0.2889,
+    "bucket": "other / subtle phrasing",
+    "index": 1472
+  },
+  {
+    "text": "Managing Director Timo Kohtam+\u00f1ki of Lemmink+\u00f1inen Infra nevertheless points out the continued need for infrastructure construction in the Baltic markets .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.2369,
+      "neutral": 0.2383,
+      "positive": 0.5247
+    },
+    "confidence": 0.5247,
+    "margin": 0.2864,
+    "bucket": "other / subtle phrasing",
+    "index": 2991
+  },
+  {
+    "text": "The city will invite , however , a public procurement tender for the tailor-made public furniture , such as park benches , litter receptacles , public toilets , as well as bus shelters , street lights , and other .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0102,
+      "neutral": 0.3615,
+      "positive": 0.6284
+    },
+    "confidence": 0.6284,
+    "margin": 0.2669,
+    "bucket": "negation / contrast (failed to, despite, however, ...)",
+    "index": 2169
+  },
+  {
+    "text": "Wayne Greensmith , Fiskars Brands UK senior brand manager , said : `` We have launched this as we want to give something back to the community .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.009,
+      "neutral": 0.3627,
+      "positive": 0.6283
+    },
+    "confidence": 0.6283,
+    "margin": 0.2656,
+    "bucket": "other / subtle phrasing",
+    "index": 1128
+  },
+  {
+    "text": "The planned facility , estimated to cost around $ 814 million , would be the largest biodiesel plant in the world , and use palm oil certified by the Roundtable on Sustainable Palm Oil ( RSPO ) .",
+    "true": "positive",
+    "predicted": "neutral",
+    "probabilities": {
+      "negative": 0.0071,
+      "neutral": 0.6242,
+      "positive": 0.3687
+    },
+    "confidence": 0.6242,
+    "margin": 0.2555,
+    "bucket": "other / subtle phrasing",
+    "index": 650
+  },
+  {
+    "text": "Juha Jordan , chief engineer at Glaston , said one of the reasons for choosing Vacon as a global AC drives supplier is that it has service and support centres in the same countries where Glaston operates .",
+    "true": "positive",
+    "predicted": "neutral",
+    "probabilities": {
+      "negative": 0.0101,
+      "neutral": 0.6166,
+      "positive": 0.3733
+    },
+    "confidence": 0.6166,
+    "margin": 0.2433,
+    "bucket": "other / subtle phrasing",
+    "index": 1382
+  },
+  {
+    "text": "The sale of Savcor FACE to Cencorp will result in a profit or loss which can not yet be determined , owing to factors including the valuation of the consideration shares to be received and prevailing exchange rates .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.6105,
+      "neutral": 0.3698,
+      "positive": 0.0197
+    },
+    "confidence": 0.6105,
+    "margin": 0.2407,
+    "bucket": "mixed-signal (both positive and negative cues)",
+    "index": 1785
+  },
+  {
+    "text": "Karachi , Sept. 14 -- Ixonos , a world leader in the development and integration of solutions for handheld devices , announced that it is implementing a touch screen mobile user interface solution for the Intel Atom processor Z6xx based smartphones .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0103,
+      "neutral": 0.3755,
+      "positive": 0.6142
+    },
+    "confidence": 0.6142,
+    "margin": 0.2387,
+    "bucket": "other / subtle phrasing",
+    "index": 2564
+  },
+  {
+    "text": "The second-quarter net sales are expected to be on par with the first quarter of 2009 .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0338,
+      "neutral": 0.3645,
+      "positive": 0.6017
+    },
+    "confidence": 0.6017,
+    "margin": 0.2372,
+    "bucket": "other / subtle phrasing",
+    "index": 1108
+  },
+  {
+    "text": "In April 2010 , Olvi 's range of ciders will expand with a strawberry-rhubarb and an apple-pear cider in green bottles with a new shape .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0091,
+      "neutral": 0.3819,
+      "positive": 0.609
+    },
+    "confidence": 0.609,
+    "margin": 0.2271,
+    "bucket": "other / subtle phrasing",
+    "index": 2543
+  },
+  {
+    "text": "First Industrial will seek LEED designation for Uponor 's new building and a 282,000 square-foot speculative distribution center at First Park Lakeville .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0086,
+      "neutral": 0.3831,
+      "positive": 0.6083
+    },
+    "confidence": 0.6083,
+    "margin": 0.2252,
+    "bucket": "other / subtle phrasing",
+    "index": 1962
+  },
+  {
+    "text": "In China , Finnish Kone that provides elevators , escalators , and solutions for modernisation and maintenance will build 342 escalators that will be installed in a high-speed railway section between Beijing and Shanghai in a 1.5 years ' time .",
+    "true": "positive",
+    "predicted": "neutral",
+    "probabilities": {
+      "negative": 0.0082,
+      "neutral": 0.6069,
+      "positive": 0.3849
+    },
+    "confidence": 0.6069,
+    "margin": 0.222,
+    "bucket": "other / subtle phrasing",
+    "index": 1281
+  },
+  {
+    "text": "The new location is n't the only change Wellmont has in store for its air transport service .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0086,
+      "neutral": 0.3886,
+      "positive": 0.6028
+    },
+    "confidence": 0.6028,
+    "margin": 0.2143,
+    "bucket": "other / subtle phrasing",
+    "index": 2269
+  },
+  {
+    "text": "Operating profit of operations in Finland in the period under review totaled EUR 11.3 mn , remaining at the 2005 level .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.4774,
+      "neutral": 0.2682,
+      "positive": 0.2544
+    },
+    "confidence": 0.4774,
+    "margin": 0.2092,
+    "bucket": "other / subtle phrasing",
+    "index": 2606
+  },
+  {
+    "text": "Fiskars has a strong portfolio of international brands , which include Fiskars , Iittala , Gerber , Silva and Buster .",
+    "true": "positive",
+    "predicted": "neutral",
+    "probabilities": {
+      "negative": 0.0073,
+      "neutral": 0.6003,
+      "positive": 0.3925
+    },
+    "confidence": 0.6003,
+    "margin": 0.2078,
+    "bucket": "other / subtle phrasing",
+    "index": 606
+  },
+  {
+    "text": "Pre-tax loss totaled EUR 0.3 mn , compared to a loss of EUR 2.2 mn in the first quarter of 2005 .",
+    "true": "positive",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.5936,
+      "neutral": 0.0181,
+      "positive": 0.3882
+    },
+    "confidence": 0.5936,
+    "margin": 0.2054,
+    "bucket": "domain vocabulary (financial event verbs)",
+    "index": 1403
+  },
+  {
+    "text": "Thanks to the internet , consumers compare products more than previously and Finnish companies are not competitive .",
+    "true": "negative",
+    "predicted": "neutral",
+    "probabilities": {
+      "negative": 0.3386,
+      "neutral": 0.5421,
+      "positive": 0.1193
+    },
+    "confidence": 0.5421,
+    "margin": 0.2035,
+    "bucket": "negation / contrast (failed to, despite, however, ...)",
+    "index": 3425
+  },
+  {
+    "text": "`` I 'm not sure what 's happening .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.5738,
+      "neutral": 0.3906,
+      "positive": 0.0355
+    },
+    "confidence": 0.5738,
+    "margin": 0.1832,
+    "bucket": "negation / contrast (failed to, despite, however, ...)",
+    "index": 3421
+  },
+  {
+    "text": "As a result , it has started negotiations with the banks on provisional amendments concerning the covenants and other credit terms .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0304,
+      "neutral": 0.3962,
+      "positive": 0.5734
+    },
+    "confidence": 0.5734,
+    "margin": 0.1773,
+    "bucket": "other / subtle phrasing",
+    "index": 2977
+  },
+  {
+    "text": "Our superior customer centricity and expertise in digital services set us apart from our competitors .",
+    "true": "positive",
+    "predicted": "neutral",
+    "probabilities": {
+      "negative": 0.0185,
+      "neutral": 0.5756,
+      "positive": 0.4059
+    },
+    "confidence": 0.5756,
+    "margin": 0.1697,
+    "bucket": "other / subtle phrasing",
+    "index": 3405
+  },
+  {
+    "text": "`` It allows the young child to move forward with his life . ''",
+    "true": "positive",
+    "predicted": "neutral",
+    "probabilities": {
+      "negative": 0.0097,
+      "neutral": 0.5772,
+      "positive": 0.4131
+    },
+    "confidence": 0.5772,
+    "margin": 0.1641,
+    "bucket": "other / subtle phrasing",
+    "index": 792
+  },
+  {
+    "text": "Margin call of Zanadvorov has given the chance to make such purchase under the credit of Deutsche Bank for USD 560 million .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0084,
+      "neutral": 0.418,
+      "positive": 0.5736
+    },
+    "confidence": 0.5736,
+    "margin": 0.1556,
+    "bucket": "other / subtle phrasing",
+    "index": 2576
+  },
+  {
+    "text": "Rautaruukki aims to find work from the group 's other locations for those who have been made redundant .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.537,
+      "neutral": 0.3845,
+      "positive": 0.0784
+    },
+    "confidence": 0.537,
+    "margin": 0.1525,
+    "bucket": "other / subtle phrasing",
+    "index": 3065
+  },
+  {
+    "text": "According to a report by Neomarkka , Kuitu Finland 's customers are interested in buying the company 's products when it restarts production .",
+    "true": "positive",
+    "predicted": "neutral",
+    "probabilities": {
+      "negative": 0.0106,
+      "neutral": 0.5682,
+      "positive": 0.4212
+    },
+    "confidence": 0.5682,
+    "margin": 0.147,
+    "bucket": "other / subtle phrasing",
+    "index": 671
+  },
+  {
+    "text": "The E7 smartphone will be available for Rs35 ,000 per handset across India , '' Nokia India vice-president & managing director D Shivakumar told reporters .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0092,
+      "neutral": 0.4231,
+      "positive": 0.5677
+    },
+    "confidence": 0.5677,
+    "margin": 0.1446,
+    "bucket": "other / subtle phrasing",
+    "index": 3015
+  },
+  {
+    "text": "Nordea Pankki Suomi Oyj , according to previously announced , has made forward contracts on Alma Media Corporation shares .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0167,
+      "neutral": 0.4197,
+      "positive": 0.5635
+    },
+    "confidence": 0.5635,
+    "margin": 0.1438,
+    "bucket": "other / subtle phrasing",
+    "index": 2070
+  },
+  {
+    "text": "In a note to clients published , the Dutch broker described the company 's third quarter results as ` soft ' , although it also noted that Elcoteq retained its guidance , dealers said .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.3937,
+      "neutral": 0.0695,
+      "positive": 0.5368
+    },
+    "confidence": 0.5368,
+    "margin": 0.1431,
+    "bucket": "negation / contrast (failed to, despite, however, ...)",
+    "index": 3194
+  },
+  {
+    "text": "The transaction was announced on September 29 when Pohjola Insurance agreed to pay EUR 80 million ( USD 106.3 m ) in cash for Pohjantahti .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.011,
+      "neutral": 0.4262,
+      "positive": 0.5628
+    },
+    "confidence": 0.5628,
+    "margin": 0.1366,
+    "bucket": "other / subtle phrasing",
+    "index": 2349
+  },
+  {
+    "text": "According to Finnair Technical Services , the measure is above all due to the employment situation .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.3691,
+      "neutral": 0.1336,
+      "positive": 0.4973
+    },
+    "confidence": 0.4973,
+    "margin": 0.1282,
+    "bucket": "other / subtle phrasing",
+    "index": 801
+  },
+  {
+    "text": "This is the company 's first contract abroad .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.01,
+      "neutral": 0.431,
+      "positive": 0.559
+    },
+    "confidence": 0.559,
+    "margin": 0.128,
+    "bucket": "other / subtle phrasing",
+    "index": 1797
+  },
+  {
+    "text": "Finnish property investment company Citycon will expand and refurbish +\u00e0kersberga shopping center in Stockholm , in Sweden .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0088,
+      "neutral": 0.4345,
+      "positive": 0.5567
+    },
+    "confidence": 0.5567,
+    "margin": 0.1222,
+    "bucket": "other / subtle phrasing",
+    "index": 2449
+  },
+  {
+    "text": "The contract also includes installation work in a new multistorey carpark for close on 1,000 vehicles .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0092,
+      "neutral": 0.4377,
+      "positive": 0.553
+    },
+    "confidence": 0.553,
+    "margin": 0.1153,
+    "bucket": "other / subtle phrasing",
+    "index": 2201
+  },
+  {
+    "text": "Finnish publishing and printing group Ilkka-Yhtym+\u00f1 will introduced a staff smoking ban as of the beginning of 2007 at the company 's three newspapers .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.5388,
+      "neutral": 0.4393,
+      "positive": 0.0219
+    },
+    "confidence": 0.5388,
+    "margin": 0.0995,
+    "bucket": "other / subtle phrasing",
+    "index": 2966
+  },
+  {
+    "text": "Teleste BK Optiflex amplifier products will be used in ongoing capacity upgrade of KDG 's network to bi-directionality .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0071,
+      "neutral": 0.4468,
+      "positive": 0.5461
+    },
+    "confidence": 0.5461,
+    "margin": 0.0993,
+    "bucket": "other / subtle phrasing",
+    "index": 1693
+  },
+  {
+    "text": "The EUR 0.7 million non-recurring expenses have been recorded for the third quarter .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.5355,
+      "neutral": 0.4397,
+      "positive": 0.0248
+    },
+    "confidence": 0.5355,
+    "margin": 0.0958,
+    "bucket": "other / subtle phrasing",
+    "index": 928
+  },
+  {
+    "text": "The contract includes an option to deliver an additional 75 ASCs in the next phases of the project .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0106,
+      "neutral": 0.4476,
+      "positive": 0.5418
+    },
+    "confidence": 0.5418,
+    "margin": 0.0941,
+    "bucket": "other / subtle phrasing",
+    "index": 2688
+  },
+  {
+    "text": "Electricity consumption grows with higher frequencies .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0145,
+      "neutral": 0.455,
+      "positive": 0.5305
+    },
+    "confidence": 0.5305,
+    "margin": 0.0755,
+    "bucket": "other / subtle phrasing",
+    "index": 1941
+  },
+  {
+    "text": "Finnish industrial group Ruukki Group Plc OMX Helsinki : RUG1V said on Friday 14 November that its furniture business segment Incap Furniture has concluded personnel negotiations that were started at the end of September .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.4462,
+      "neutral": 0.1819,
+      "positive": 0.3719
+    },
+    "confidence": 0.4462,
+    "margin": 0.0744,
+    "bucket": "other / subtle phrasing",
+    "index": 1594
+  },
+  {
+    "text": "Talvik says the relocation of application programs on servers will continue , while HP servers were approved because of HP supplying a tailor-made solution to Elisa .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0131,
+      "neutral": 0.4579,
+      "positive": 0.529
+    },
+    "confidence": 0.529,
+    "margin": 0.0711,
+    "bucket": "other / subtle phrasing",
+    "index": 757
+  },
+  {
+    "text": "Sampo Housing Loan Bank , a unit of Finland 's Sampo Bank , has priced its EUR1bn ( USD1 .3 bn ) bond at 99.889 % , Reuters reported .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0157,
+      "neutral": 0.4603,
+      "positive": 0.524
+    },
+    "confidence": 0.524,
+    "margin": 0.0636,
+    "bucket": "other / subtle phrasing",
+    "index": 2118
+  },
+  {
+    "text": "The price of GMO soy is 5 % -7 % lower than that of non-GMO .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.5111,
+      "neutral": 0.4485,
+      "positive": 0.0405
+    },
+    "confidence": 0.5111,
+    "margin": 0.0626,
+    "bucket": "domain vocabulary (financial event verbs)",
+    "index": 2301
+  },
+  {
+    "text": "The company had hoped the new plant would be on stream by the end of 2008 .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0122,
+      "neutral": 0.4688,
+      "positive": 0.519
+    },
+    "confidence": 0.519,
+    "margin": 0.0501,
+    "bucket": "other / subtle phrasing",
+    "index": 1079
+  },
+  {
+    "text": "Neste Shipping is the most likely to remain Finnish as the oil sector and its transports are significant for emergency supply .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.3832,
+      "neutral": 0.3422,
+      "positive": 0.2745
+    },
+    "confidence": 0.3832,
+    "margin": 0.041,
+    "bucket": "other / subtle phrasing",
+    "index": 1637
+  },
+  {
+    "text": "He is resting comfortably and is looking forward to getting back to work . ''",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0326,
+      "neutral": 0.4642,
+      "positive": 0.5032
+    },
+    "confidence": 0.5032,
+    "margin": 0.039,
+    "bucket": "other / subtle phrasing",
+    "index": 1027
+  },
+  {
+    "text": "The repo rate will gradually reach 2 % at the end of 2010 , according to Nordea 's Economic Outlook .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0127,
+      "neutral": 0.4744,
+      "positive": 0.5128
+    },
+    "confidence": 0.5128,
+    "margin": 0.0384,
+    "bucket": "other / subtle phrasing",
+    "index": 2312
+  },
+  {
+    "text": "Furthermore , our fully electrically driven cranes are environmentally friendly .",
+    "true": "positive",
+    "predicted": "neutral",
+    "probabilities": {
+      "negative": 0.0077,
+      "neutral": 0.5129,
+      "positive": 0.4794
+    },
+    "confidence": 0.5129,
+    "margin": 0.0335,
+    "bucket": "other / subtle phrasing",
+    "index": 842
+  },
+  {
+    "text": "Under the agreement GeoSentric will provide GyPSii-powered hotel information and reservation services to visitors to China , including such popular cities as Beijing and Shanghai .",
+    "true": "positive",
+    "predicted": "neutral",
+    "probabilities": {
+      "negative": 0.0068,
+      "neutral": 0.5125,
+      "positive": 0.4806
+    },
+    "confidence": 0.5125,
+    "margin": 0.0319,
+    "bucket": "other / subtle phrasing",
+    "index": 653
+  },
+  {
+    "text": "15 September 2010 - Finnish electrical components maker Salcomp Oyj ( HEL : SAL1V ) announced today the launch of its latest Twist charger platform .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0082,
+      "neutral": 0.4814,
+      "positive": 0.5104
+    },
+    "confidence": 0.5104,
+    "margin": 0.029,
+    "bucket": "other / subtle phrasing",
+    "index": 2960
+  },
+  {
+    "text": "`` We have come out with a decision which is based on our preliminary economic , operational and environmental findings , '' Karvinen said .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0151,
+      "neutral": 0.4792,
+      "positive": 0.5057
+    },
+    "confidence": 0.5057,
+    "margin": 0.0264,
+    "bucket": "other / subtle phrasing",
+    "index": 2441
+  },
+  {
+    "text": "Finnish Stockmann Group 's mail order unit Hobby Hall has launched a trial marketing campaign in Russia .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0094,
+      "neutral": 0.4845,
+      "positive": 0.506
+    },
+    "confidence": 0.506,
+    "margin": 0.0215,
+    "bucket": "other / subtle phrasing",
+    "index": 2967
+  },
+  {
+    "text": "The new units should become one of the largest ones within the company .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0076,
+      "neutral": 0.4858,
+      "positive": 0.5065
+    },
+    "confidence": 0.5065,
+    "margin": 0.0207,
+    "bucket": "other / subtle phrasing",
+    "index": 2271
+  },
+  {
+    "text": "The technology will become available to businesses from the fourth quarter , Nokia said .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0074,
+      "neutral": 0.4884,
+      "positive": 0.5041
+    },
+    "confidence": 0.5041,
+    "margin": 0.0157,
+    "bucket": "other / subtle phrasing",
+    "index": 2338
+  },
+  {
+    "text": "The solution will be installed in the USA to support the North American operations of the customer .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0069,
+      "neutral": 0.4913,
+      "positive": 0.5018
+    },
+    "confidence": 0.5018,
+    "margin": 0.0105,
+    "bucket": "other / subtle phrasing",
+    "index": 2769
+  },
+  {
+    "text": "Mr. McDonald started the evening with his own set , featuring hits from his solo career and his Doobie Brothers years and a selection of R&B cover songs that met with mixed results .",
+    "true": "neutral",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.4542,
+      "neutral": 0.4477,
+      "positive": 0.0981
+    },
+    "confidence": 0.4542,
+    "margin": 0.0065,
+    "bucket": "other / subtle phrasing",
+    "index": 2590
+  },
+  {
+    "text": "`` The industry is coming to an interesting fork in the road as both handset manufacturers and wireless carriers attempt to serve as the portal for Web-based service to your wireless handset , '' he wrote .",
+    "true": "neutral",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.0116,
+      "neutral": 0.4914,
+      "positive": 0.497
+    },
+    "confidence": 0.497,
+    "margin": 0.0057,
+    "bucket": "other / subtle phrasing",
+    "index": 996
+  },
+  {
+    "text": "The period-end cash and cash equivalents totaled EUR6 .5 m , compared to EUR10 .5 m in the previous year .",
+    "true": "negative",
+    "predicted": "positive",
+    "probabilities": {
+      "negative": 0.4877,
+      "neutral": 0.0203,
+      "positive": 0.492
+    },
+    "confidence": 0.492,
+    "margin": 0.0043,
+    "bucket": "other / subtle phrasing",
+    "index": 2905
+  },
+  {
+    "text": "Return on investment was 5.0 % , compared to a negative 4.1 % in 2009 .",
+    "true": "positive",
+    "predicted": "negative",
+    "probabilities": {
+      "negative": 0.4854,
+      "neutral": 0.0321,
+      "positive": 0.4824
+    },
+    "confidence": 0.4854,
+    "margin": 0.003,
+    "bucket": "domain vocabulary (financial event verbs)",
+    "index": 2927
   }
 ]

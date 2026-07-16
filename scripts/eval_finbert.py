@@ -65,6 +65,10 @@ LABELS: tuple[str, ...] = ("negative", "neutral", "positive")
 # Same truncation the app applies in FinBERTSentiment.score().
 _MAX_CHARS = 512
 
+# Number of (most-confidently-wrong) errors rendered in SUMMARY.md's table. The
+# full error set is always written to finbert_errors.json regardless of this.
+_ERROR_SAMPLE_SIZE: int = 40
+
 
 # ---------------------------------------------------------------------------
 # Pure, import-safe helpers (unit-tested in tests/test_eval.py)
@@ -330,9 +334,13 @@ def build_error_analysis(
     y_true: Sequence[str],
     finbert_pred: Sequence[str],
     finbert_probs: Sequence[dict],
-    n_examples: int = 40,
 ) -> list[dict]:
-    """Collect FinBERT misclassifications with context, bucketed for inspection."""
+    """Collect *all* FinBERT misclassifications with context, sorted for inspection.
+
+    Returns every error, most-confidently-wrong first. The full list is what gets
+    written to ``finbert_errors.json``; callers that want a short readable sample
+    (e.g. for the SUMMARY table) should slice it themselves.
+    """
     errors: list[dict] = []
     for i, (t, yt, yp, p) in enumerate(zip(texts, y_true, finbert_pred, finbert_probs)):
         if yt == yp:
@@ -355,7 +363,7 @@ def build_error_analysis(
         )
     # Sort by how confidently wrong (most over-confident first) for visibility.
     errors.sort(key=lambda e: e["margin"], reverse=True)
-    return errors[:n_examples]
+    return errors
 
 
 # ---------------------------------------------------------------------------
@@ -498,7 +506,9 @@ def run_evaluation(config: str, limit: int | None, seed: int) -> dict:
     vader_metrics = compute_metrics(y_true, vader_pred)
 
     print("Building error analysis ...", flush=True)
-    error_sample = build_error_analysis(texts, y_true, finbert_pred, finbert_probs)
+    all_errors = build_error_analysis(texts, y_true, finbert_pred, finbert_probs)
+    error_sample = all_errors[:_ERROR_SAMPLE_SIZE]  # short table for SUMMARY.md
+    print(f"  {len(all_errors)} misclassifications total", flush=True)
 
     # --- Persist artifacts ---------------------------------------------------
     import csv
@@ -528,7 +538,7 @@ def run_evaluation(config: str, limit: int | None, seed: int) -> dict:
     metrics_path.write_text(json.dumps(metrics_payload, indent=2), encoding="utf-8")
 
     errors_path = _EVAL_DIR / "finbert_errors.json"
-    errors_path.write_text(json.dumps(error_sample, indent=2), encoding="utf-8")
+    errors_path.write_text(json.dumps(all_errors, indent=2), encoding="utf-8")
 
     plot_confusion_matrix(
         finbert_metrics["confusion_matrix"],
